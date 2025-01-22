@@ -14,7 +14,7 @@ Welcome to the **Animated Cards** project! This repository showcases beautifully
 
 ## 🖥️ Preview
 
-![Animated Cards Demo](https://css-animated-cards.vercel.app/)
+![Animated Cards Demo]  https://css-animated-cards.vercel.app/
 
 ---
 
