@@ -11,8 +11,8 @@ body {
 }
 
 body {
-    background: #000;
-    font-family: 'Courier New', Courier, monospace;
+    background: conic-gradient(from 120deg, #000000, #2c2c2c, #5a5a5a, #000000);
+    font-family: 'Courier New', Courier, monospace !important;
 }
 
 .card {
