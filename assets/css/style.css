@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: #000;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card {
+    height: 300px;
+    cursor: pointer;
+    transform: all 0.5s ease;
+
+    h3 {
+        transition: all 0.5s ease;
+    }
+
+    &:hover h3 {
+        color: #fff;
+    }
+}
+
+.card1 {
+
+    img {
+        top: 8px;
+        right: 5px;
+    }
+
+    &:hover {
+
+        .circle1 {
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+        }
+    }
+
+    .circle1 {
+        width: 50px;
+        height: 50px;
+        transition: all 0.5s ease;
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+        border-radius: 0px 5px 0px 50px;
+    }
+}
+
+.card2 {
+
+    &:hover {
+
+        .circle2 {
+            border-radius: 5px !important;
+            width: 100%;
+            height: 100%;
+            margin: 0 !important;
+        }
+    }
+
+    .circle2 {
+        width: 50px;
+        height: 50px;
+        transition: all 0.5s ease;
+        background: #000;
+    }
+}
+
+.card3 {
+
+    img {
+        bottom: 7px;
+        left: 5px;
+    }
+
+    &:hover {
+
+        .circle3 {
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+        }
+    }
+
+    .circle3 {
+        width: 50px;
+        height: 50px;
+        transition: all 0.5s ease;
+        background-color: rgb(255, 201, 201);
+        border-radius: 0px 50px 0px 5px;
+    }
+}
