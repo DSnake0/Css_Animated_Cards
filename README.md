@@ -77,7 +77,7 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 🤝 Connect
 Have questions or suggestions? Feel free to reach out!
 
-GitHub: https://github.com/DSnake0
+GitHub: https://github.com/ExploitEngineer
 Email: abdulrafay008877@gmail.com
 
 💻 Happy Coding!
